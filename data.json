@@ -1,0 +1,29 @@
+{
+    "name" : "Tolulope Babajide",
+    "avatar": "image-link",
+    "links":[
+        {
+            "title": "Portfolio",
+            "url": "",
+            "image":""
+        },
+
+        {
+            "title": "Blog",
+            "url": "",
+            "image":""
+        }
+    ],
+    
+    "socials":[
+        {
+            "title": "Twitter",
+            "url": "https://www.twitter.com/tolulopeoflj"
+        },
+
+        {
+            "title": "Github",
+            "url": "https://www.github.com"
+        }
+    ]
+}
