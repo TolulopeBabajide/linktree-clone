@@ -1,6 +1,7 @@
 import Image from "next/image"
 import data from '/data.json'
 import Links from "../Components/Links"
+import Socials from "../Components/Socials"
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       <div className="text-xl text-white my-4 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 "><h1>{data.name}</h1></div>
       <div className=" w-full h-3/4 m-4 p-4">
         <Links />
+      </div>
+      <div>
+        <Socials/>
       </div>
     </div>
   )
