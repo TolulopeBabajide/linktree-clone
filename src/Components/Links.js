@@ -15,7 +15,7 @@ export default function Links(){
                              width={40}
                              height={40}
                         />
-                        <Link className="w-full text-center " href={link.url} target="_blank" rel="noopener noreferrer">
+                        <Link className="w-full text-center font-semibold me-5 p-2 text-slate-700 text-xl " href={link.url} target="_blank" rel="noopener noreferrer">
                             {link.title}
                         </Link>
                     </div>
