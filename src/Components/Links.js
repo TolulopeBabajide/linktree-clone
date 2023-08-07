@@ -7,15 +7,15 @@ export default function Links(){
         <div className="flex flex-col  justify-center">
                     {data.links.map((link, index) => (
                       
-                    <div className="flex mx-auto w-3/4 border-slate-400 m-1 text-center bg-slate-200 p-1 rounded-sm w-full border-2">
+                    <div className="flex mx-auto w-full items-center  mb-3 text-center bg-slate-200 p-1 rounded-md w-full ">
                         <Image
                              className="rounded-sm"
                              alt={""}
                              src={link.image}
-                             width={20}
-                             height={20}
+                             width={40}
+                             height={40}
                         />
-                        <Link className="ms-3 " href={link.url} target="_blank" rel="noopener noreferrer">
+                        <Link className="w-full text-center " href={link.url} target="_blank" rel="noopener noreferrer">
                             {link.title}
                         </Link>
                     </div>
