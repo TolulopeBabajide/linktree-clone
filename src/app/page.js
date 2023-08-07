@@ -9,8 +9,8 @@ export default function Home() {
         className="rounded-full mt-4"
         alt={data.name}
         src={data.avatar}
-        width={120}
-        height={120}
+        width={100}
+        height={100}
       />
       <div className="text-xl text-white my-4 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 "><h1>{data.name}</h1></div>
       <div className=" w-full h-3/4 m-4 p-4">
