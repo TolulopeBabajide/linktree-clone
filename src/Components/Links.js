@@ -15,10 +15,8 @@ export default function Links(){
                              width={40}
                              height={40}
                         />
-                        <Link  href={link.url} target="_blank" rel="noopener noreferrer">
-                            <a className="w-full text-center font-semibold me-12 py-2 text-slate-700 text-xl ">
-                                {link.title}
-                            </a>
+                        <Link className="w-full text-center font-semibold me-12 py-2 text-slate-700 text-xl " href={link.url} target="_blank" rel="noopener noreferrer">
+                            {link.title}
                         </Link>
                     </div>
                 
