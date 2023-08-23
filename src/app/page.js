@@ -18,7 +18,7 @@ export default function Home() {
         <Links key={index} />
       </div>
       <div>
-        <Socials key={url} />
+        <Socials key={index} />
       </div>
     </div>
   )

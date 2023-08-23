@@ -7,7 +7,7 @@ import data from "/data.json"
 export default function Socials(){
     return(
         <div className='flex justify-center items-center'>
-            {data.socials.map((social, url)=>(
+            {data.socials.map((social, index)=>(
                 <div className='flex '>
                     <div className='me-1'>
                         <Link
