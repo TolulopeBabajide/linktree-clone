@@ -8,7 +8,7 @@ export default function Socials(){
     return(
         <div className='flex justify-center items-center'>
             {data.socials.map((social, index)=>(
-                <div className='flex '>
+                <div key={index} className='flex '>
                     <div className='me-1'>
                         <Link
                             className={`${social.title === "Twitter" ? "visible" : "hidden"} text-3xl text-white`}
