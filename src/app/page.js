@@ -15,10 +15,10 @@ export default function Home() {
       />
       <div className="text-xl text-white my-4 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 "><h1>{data.name}</h1></div>
       <div className=" w-full m-4 p-4">
-        <Links key={href} />
+        <Links key={index} />
       </div>
       <div>
-        <Socials key={href} />
+        <Socials key={url} />
       </div>
     </div>
   )
